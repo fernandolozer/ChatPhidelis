@@ -1,0 +1,12 @@
+<nav class="container" ng-controller="LoginCtrl">
+	<div class="navbar-header">
+		<a href="#/" class="navbar-brand">Home</a>
+	</div>
+
+	<ul class="nav navbar-nav navbar-right">
+		<li><a href="#">logado como <strong>{{ user.name }}<strong></a></li>
+
+		<li><a href="javascript:void(0);" ng-click="vm.logout()" target="_blank">Sair</a></li>
+	</ul>
+
+</nav>
